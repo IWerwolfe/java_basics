@@ -13,6 +13,12 @@ public class Main {
         vasyaBasket.add("Water", 15, 1.0);
         vasyaBasket.print("Корзина Васи");
 
+        System.out.println("Средняя цена корзин: " + Basket.getMedialPrice());
+        System.out.println("Средняя цена товаров в корзинах: " + Basket.getMedialPriceBaskets());
+        System.out.println("Общее количество: " + Basket.getCount());
+        System.out.println("Общая цена всех корзин: " + Basket.getGlobalPrice());
+        System.out.println("Общее количество товара в корзинах: " + Basket.getGlobalCountItems());
+
         System.out.println();
         System.out.println("Арифметика \n");
 

@@ -1,6 +1,8 @@
 public class Basket {
 
     private static int count = 0;
+    private static int globalPrice = 0;
+    private static int globalCountItems = 0;
     private String items = "";
     private int totalPrice = 0;
     private int limit;
@@ -26,6 +28,27 @@ public class Basket {
 
     public static int getCount() {
         return count;
+    }
+
+    private static void setGlobalPriceAndGlobalCountItems(int count, int price){
+        globalPrice = globalPrice + price;
+        globalCountItems = globalCountItems + count;
+    }
+
+    public static double getMedialPriceBaskets(){
+        return globalPrice / globalCountItems;
+    }
+
+    public static double getMedialPrice(){
+        return globalPrice / count;
+    }
+
+    public static int getGlobalPrice() {
+        return globalPrice;
+    }
+
+    public static int getGlobalCountItems() {
+        return globalCountItems;
     }
 
     public static void increaseCount(int count) {
@@ -63,6 +86,8 @@ public class Basket {
         items = items + "\n" + name + " - " +
             count + " шт. - " + price;
         totalPrice = totalPrice + count * price;
+
+        setGlobalPriceAndGlobalCountItems(count, price);
     }
 
     public void clear() {
