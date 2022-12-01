@@ -1,0 +1,18 @@
+2022-11-22 02:02:19.452 [main] ERROR Main - Возникла ошибка: {}
+java.lang.IllegalArgumentException: Некорректный формат, правильно: 
+add Василий Петров vasily.petrov@gmail.com +79215637722
+	at CustomerStorage.addCustomer(CustomerStorage.java:23) ~[classes/:?]
+	at Main.main(Main.java:30) ~[classes/:?]
+2022-11-22 02:02:35.284 [main] ERROR Main - Возникла ошибка: {}
+java.lang.IllegalArgumentException: Имя указано некорректно, правильно: Василий Петров
+	at CustomerStorage.addCustomer(CustomerStorage.java:31) ~[classes/:?]
+	at Main.main(Main.java:30) ~[classes/:?]
+2022-11-22 02:02:39.802 [main] ERROR Main - Возникла ошибка: {}
+java.lang.IllegalArgumentException: Телефон указан некорректно, правильно: +79215637722
+	at CustomerStorage.addCustomer(CustomerStorage.java:39) ~[classes/:?]
+	at Main.main(Main.java:30) ~[classes/:?]
+2022-11-22 02:02:49.114 [main] ERROR Main - Возникла ошибка: {}
+java.lang.IllegalArgumentException: Некорректный формат, правильно: 
+add Василий Петров vasily.petrov@gmail.com +79215637722
+	at CustomerStorage.addCustomer(CustomerStorage.java:23) ~[classes/:?]
+	at Main.main(Main.java:30) ~[classes/:?]

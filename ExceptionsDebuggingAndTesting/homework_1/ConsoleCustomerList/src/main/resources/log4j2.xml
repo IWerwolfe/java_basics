@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration status="WARN">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </Console>
+        <File name="QueriesFile" fileName="ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/Log/queries.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <MarkerFilter marker="INPUT_HISTORY" />
+            </Filters>
+        </File>
+        <File name="ErrorsFile" fileName="ExceptionsDebuggingAndTesting/homework_1/ConsoleCustomerList/src/main/Log/errors.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+            <Filters>
+                <MarkerFilter marker="ERROR" />
+            </Filters>
+        </File>
+    </appenders>
+
+    <loggers>
+        <root level="all">
+            <appender-ref ref="QueriesFile"/>
+            <appender-ref ref="ErrorsFile"/>
+        </root>
+    </loggers>
+
+</configuration>

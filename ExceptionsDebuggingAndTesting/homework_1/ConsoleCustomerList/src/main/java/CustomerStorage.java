@@ -15,8 +15,31 @@ public class CustomerStorage {
         final int INDEX_PHONE = 3;
 
         String[] components = data.split("\\s+");
+        String regexName = "[А-Я]{1}[а-я]+\\s[А-Я]{1}[а-я]+";
+        String regexMail = "([a-zA-Z0-9._-]+)@([a-zA-Z0-9._-]+)\\.([a-zA-Z0-9]{1,4})";
+        String regexPhone = "^(\\+7)?\\d{10}$";
+
+        if (components.length != 4) {
+            throw new IllegalArgumentException("Некорректный формат, правильно: \n" +
+                    "add Василий Петров vasily.petrov@gmail.com +79215637722");
+        }
         String name = components[INDEX_NAME] + " " + components[INDEX_SURNAME];
-        storage.put(name, new Customer(name, components[INDEX_PHONE], components[INDEX_EMAIL]));
+        String email = components[INDEX_EMAIL];
+        String phone = components[INDEX_PHONE];
+
+        if (!name.matches(regexName)) {
+            throw new IllegalArgumentException("Имя указано некорректно, правильно: " +
+                    "Василий Петров");
+        }
+        if (!email.matches(regexMail)) {
+            throw new IllegalArgumentException("E-mail указан некорректно, правильно: " +
+                    "vasily.petrov@gmail.com");
+        }
+        if (!phone.matches(regexPhone)) {
+            throw new IllegalArgumentException("Телефон указан некорректно, правильно: " +
+                    "+79215637722");
+        }
+        storage.put(name, new Customer(name, phone, email));
     }
 
     public void listCustomers() {
