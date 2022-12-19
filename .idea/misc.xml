@@ -9,8 +9,12 @@
         <option value="$PROJECT_DIR$/AdvancedOOPFeatures/homework_2/Employees/pom.xml" />
         <option value="$PROJECT_DIR$/InheritanceAndPolymorphism/homework_1/pom.xml" />
         <option value="$PROJECT_DIR$/InheritanceAndPolymorphism/homework_3/pom.xml" />
+        <option value="$PROJECT_DIR$/FilesAndNetwork/DataCollector/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
+  <component name="ProjectType">
+    <option name="id" value="jpab" />
+  </component>
 </project>
