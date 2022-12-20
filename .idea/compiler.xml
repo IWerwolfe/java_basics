@@ -10,15 +10,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="LambdaExpressions" />
+      </profile>
+      <profile name="Annotation profile for Archetype - CoursesSimple" enabled="true">
+        <sourceOutputDir name="../CoursesSimple/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../CoursesSimple/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="CoursesSimple" />
-        <module name="Inheritance1" />
-        <module name="LambdaExpressions-Airport" />
-        <module name="AbstractClasses" />
-        <module name="Inheritance3" />
-        <module name="DataCollector" />
-        <module name="LambdaExpressions-Employee" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AbstractClasses" target="11" />
+      <module name="CorsesJDBC" target="19" />
+      <module name="CoursesJDBC" target="19" />
+      <module name="CoursesSimple" target="19" />
+      <module name="DataCollector" target="11" />
+      <module name="Inheritance1" target="11" />
+      <module name="Inheritance3" target="11" />
+      <module name="LambdaExpressions" target="11" />
+      <module name="LambdaExpressions-Airport" target="11" />
+      <module name="LambdaExpressions-Employee" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

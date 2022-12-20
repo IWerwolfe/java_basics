@@ -12,10 +12,13 @@
         <option value="$PROJECT_DIR$/InheritanceAndPolymorphism/homework_3/pom.xml" />
         <option value="$PROJECT_DIR$/FilesAndNetwork/DataCollector/pom.xml" />
         <option value="$PROJECT_DIR$/SQLAndHibernate/CoursesSimple/pom.xml" />
+        <option value="$PROJECT_DIR$/SQLAndHibernate/CoursesJDBC/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="openjdk-19" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/SQLAndHibernate/CorsesJDBC/target" />
+  </component>
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
