@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e0d2f600-118e-46d1-a667-b6e8854e0242" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../AbstractClasses/practice_1/AbstractClasses.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_1/LambdaExpressions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_2/Airport/LambdaExpressions-Airport.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/DataCollector.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InheritanceAndPolymorphism/homework_1/Inheritance1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../InheritanceAndPolymorphism/homework_3/Inheritance3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConverterEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CoursesType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HibernateSessionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedPurchaseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PurchaseKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PurchaseList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Subscription.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SubscriptionKey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/CompanyClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/IndividualEntrepreneurClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/PhysicalPersonClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/DataAccelerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/FileSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Parser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserCsv.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserHtml.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserJson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Station.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="isToolWindowVisible" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JBIjRXCLc7OqtspeBdnxdnQoIf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Users\Desktop\Hometasksr\java_basics\SQLAndHibernate\Hibernate\src\main\resources" />
+      <recent name="D:\Users\Desktop\Hometasksr\java_basics\SQLAndHibernate\Hibernate\src\main\java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Hibernate" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0d2f600-118e-46d1-a667-b6e8854e0242" name="Changes" comment="" />
+      <created>1671545183606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671545183606</updated>
+    </task>
+    <servers />
+  </component>
+</project>
