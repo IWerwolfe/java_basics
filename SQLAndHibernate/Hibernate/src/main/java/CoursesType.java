@@ -4,23 +4,7 @@ public enum CoursesType {
     MARKETING(3),
     MANAGEMENT(4),
     BUSINESS(5);
-    int id;
 
-    private CoursesType(int id) {
-        this.id = id;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public static CoursesType getType(Integer id) {
-        if (id == null)
-            return null;
-        for (CoursesType g : values()) {
-            if (g.getId() == id)
-                return g;
-        }
-        return null;
+    CoursesType(int i) {
     }
 }
