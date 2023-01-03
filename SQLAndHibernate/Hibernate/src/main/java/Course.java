@@ -18,10 +18,9 @@ public class Course {
     private Integer id;
     private String name;
     private int duration;
+
     @Enumerated(EnumType.STRING)
-    @Column(columnDefinition = "enum('DESIGN','PROGRAMMING','MARKETING','MANAGEMENT','BUSINESS')")
-//    @Column
-//    @Convert(converter = ConverterEnum.class)
+//    @Column(columnDefinition = "enum")
     private CoursesType type;
     private String description;
     @ManyToOne(cascade = CascadeType.ALL)
@@ -31,10 +30,6 @@ public class Course {
     private Integer price;
     @Column(name = "price_per_hour")
     private float pricePerHour;
-    @Enumerated(EnumType.STRING)
-    public CoursesType getCoursesType(){
-        return this.type;
-    }
 
     @Override
     public boolean equals(Object o) {

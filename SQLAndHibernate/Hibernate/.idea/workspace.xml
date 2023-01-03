@@ -5,39 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0d2f600-118e-46d1-a667-b6e8854e0242" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../AbstractClasses/practice_1/AbstractClasses.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_1/LambdaExpressions.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_2/Airport/LambdaExpressions-Airport.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/DataCollector.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InheritanceAndPolymorphism/homework_1/Inheritance1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../InheritanceAndPolymorphism/homework_3/Inheritance3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CoursesTypeIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/CompanyClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/IndividualEntrepreneurClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../AbstractClasses/practice_1/target/classes/PhysicalPersonClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/DataAccelerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/FileSearch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Line.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserCsv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserHtml.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/ParserJson.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../FilesAndNetwork/DataCollector/target/classes/Station.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConverterEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConverterEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Course.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CoursesType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CoursesType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HibernateSessionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HibernateSessionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedPurchaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedPurchaseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PurchaseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PurchaseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,11 +83,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671634831560</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HomeWork 22/12/2022">
+      <created>1671720912879</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671720912879</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HomeWork 21/12/2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="HomeWork 21/12/2022" />
+    <MESSAGE value="HomeWork 22/12/2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="HomeWork 22/12/2022" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
