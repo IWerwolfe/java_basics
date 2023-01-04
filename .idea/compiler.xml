@@ -10,6 +10,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ImageResizer" />
+        <module name="Inheritance3" />
+        <module name="Inheritance1" />
+        <module name="LambdaExpressions-Employee" />
       </profile>
       <profile name="Annotation profile for Archetype - CoursesSimple" enabled="true">
         <sourceOutputDir name="../CoursesSimple/target/generated-sources/annotations" />
@@ -24,6 +28,7 @@
       <module name="CoursesJDBC" target="19" />
       <module name="CoursesSimple" target="19" />
       <module name="DataCollector" target="11" />
+      <module name="ImageResizer" target="19" />
       <module name="Inheritance1" target="11" />
       <module name="Inheritance3" target="11" />
       <module name="LambdaExpressions" target="11" />

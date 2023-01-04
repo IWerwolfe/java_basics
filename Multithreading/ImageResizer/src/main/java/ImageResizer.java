@@ -2,17 +2,22 @@ import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
 
-public class Main {
+public class ImageResizer implements Runnable {
 
-    public static void main(String[] args) {
-        String srcFolder = "/users/sortedmap/Desktop/src";
-        String dstFolder = "/users/sortedmap/Desktop/dst";
+    private File[] files;
+    private int newWidth;
+    private long start;
+    private String dstFolder;
 
-        File srcDir = new File(srcFolder);
+    public ImageResizer(File[] files, int newWight, long start, String dstFolder) {
+        this.files = files;
+        this.newWidth = newWight;
+        this.start = start;
+        this.dstFolder = dstFolder;
+    }
 
-        long start = System.currentTimeMillis();
-
-        File[] files = srcDir.listFiles();
+    @Override
+    public void run() {
 
         try {
             for (File file : files) {
@@ -21,12 +26,11 @@ public class Main {
                     continue;
                 }
 
-                int newWidth = 300;
                 int newHeight = (int) Math.round(
-                    image.getHeight() / (image.getWidth() / (double) newWidth)
+                        image.getHeight() / (image.getWidth() / (double) newWidth)
                 );
                 BufferedImage newImage = new BufferedImage(
-                    newWidth, newHeight, BufferedImage.TYPE_INT_RGB
+                        newWidth, newHeight, BufferedImage.TYPE_INT_RGB
                 );
 
                 int widthStep = image.getWidth() / newWidth;
