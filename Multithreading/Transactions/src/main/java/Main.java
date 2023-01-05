@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
     private static HashMap<String, Account> accounts;
@@ -14,9 +15,18 @@ public class Main {
         createAccount(account);
         Bank bank = new Bank(accounts);
 
+        long startBalance = bank.getSumAllAccounts();
+
         for (int i = 1; i < operations; i++) {
          new Thread(() -> randomOperation(bank)).start();
         }
+
+        Scanner scanner = new Scanner(System.in);
+        scanner.nextLine();
+
+        System.out.println("Начальный баланс: " + startBalance
+                + System.lineSeparator()
+                + "Конечный баланс: " + bank.getSumAllAccounts());
     }
 
     public static String getRandomAccount(){
