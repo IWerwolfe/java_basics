@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/InheritanceAndPolymorphism/homework_1/Inheritance1.iml" filepath="$PROJECT_DIR$/InheritanceAndPolymorphism/homework_1/Inheritance1.iml" />
       <module fileurl="file://$PROJECT_DIR$/InheritanceAndPolymorphism/homework_3/Inheritance3.iml" filepath="$PROJECT_DIR$/InheritanceAndPolymorphism/homework_3/Inheritance3.iml" />
       <module fileurl="file://$PROJECT_DIR$/AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" filepath="$PROJECT_DIR$/AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multithreading/Transactions/Transactions.iml" filepath="$PROJECT_DIR$/Multithreading/Transactions/Transactions.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics1.iml" filepath="$PROJECT_DIR$/.idea/java_basics1.iml" />
     </modules>
   </component>
