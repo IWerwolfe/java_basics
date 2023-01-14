@@ -1,6 +1,5 @@
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ScheduledExecutorService;
@@ -13,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        long maxDeep = 10;
+        long maxDeep = 8;
         String path = "src/data";
         String root = "https://skillbox.ru";
 //          String root = "https://lenta.ru";
@@ -31,8 +30,9 @@ public class Main {
             service.shutdown();
             System.out.println("Всего ссылок: " + Parser.getHrefCount());
         } catch (Exception e) {
-            System.out.println(Arrays.toString(e.getStackTrace()));
+            Parser.addErrorLog(e);
         }
+        Parser.closeLog();
     }
 
     public static void printCount() {

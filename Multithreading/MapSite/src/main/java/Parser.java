@@ -1,4 +1,6 @@
+import java.io.FileWriter;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.*;
 import java.util.concurrent.RecursiveTask;
 
@@ -7,10 +9,11 @@ public class Parser extends RecursiveTask<String> {
     private final String href;
     private String prefix = "";
     private final String separator = System.lineSeparator();
-    private final StringBuilder text = new StringBuilder();
+    private final StringBuffer text = new StringBuffer();
     private final long deep;
     private static long maxDeep;
     private static final HashMap<String, Long> hrefCount = new HashMap<>();
+    private static FileWriter log;
 
     public Parser(String href, long deep) {
         this.href = href;
@@ -23,12 +26,15 @@ public class Parser extends RecursiveTask<String> {
         this.deep = 0;
         ParserHTML.initialized(mainHref);
         Parser.maxDeep = maxDeep;
+        initLog();
     }
 
     @Override
     protected String compute() {
 
         addHrefCount(href);
+        addLog(separator + separator);
+        addLog(href + " :: deep: " + deep + " -- time: " + LocalDateTime.now() + separator);
 
         try {
             HashSet<String> refs = ParserHTML.getArrayHref(href);
@@ -40,9 +46,12 @@ public class Parser extends RecursiveTask<String> {
                 taskList.forEach(task -> addSimpleString(task.join()));
             }
         } catch (IllegalAccessException | InterruptedException | IOException e) {
+            addErrorLog(e);
             addString("Parsing error: " + deep + ", " + href);
         }
-        return text.toString().replaceAll(separator.concat("*$"), "");
+        String record = text.toString().replaceAll(separator.concat("*$"), "");
+        addLog(record);
+        return record;
     }
 
     private void startThread(String child, List<Parser> taskList) {
@@ -80,5 +89,37 @@ public class Parser extends RecursiveTask<String> {
 
     private static long getHrefCount(String href) {
         return hrefCount.getOrDefault(href, 0L);
+    }
+
+    public static void initLog() {
+        try {
+            log = new FileWriter("src/data/log.txt");
+        } catch (IOException e) {
+            System.err.println(Arrays.toString(e.getStackTrace()));
+        }
+    }
+
+    public synchronized static void addLog(String strings) {
+        try {
+            log.write(strings);
+//            log.flush();
+        } catch (IOException e) {
+            System.err.println(Arrays.toString(e.getStackTrace()));
+        }
+    }
+
+    public synchronized static void addErrorLog(Exception error) {
+        String separator = System.lineSeparator();
+        addLog(":: error " + LocalDateTime.now() + " :: " + separator);
+        addLog(error + separator + separator);
+    }
+
+    public static void closeLog() {
+        try {
+            log.flush();
+            log.close();
+        } catch (IOException e) {
+            System.err.println(Arrays.toString(e.getStackTrace()));
+        }
     }
 }
