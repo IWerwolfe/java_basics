@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasks?useSSL=false
+    username: root
+    password: '!QAZzaq1'
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+someParameter:
+  value: 5463

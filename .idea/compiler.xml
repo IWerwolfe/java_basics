@@ -13,6 +13,7 @@
         <module name="ImageResizer" />
         <module name="Inheritance3" />
         <module name="Inheritance1" />
+        <module name="ToDoList" />
         <module name="LambdaExpressions-Employee" />
       </profile>
       <profile name="Annotation profile for Archetype - CoursesSimple" enabled="true">
@@ -34,6 +35,7 @@
       <module name="LambdaExpressions" target="11" />
       <module name="LambdaExpressions-Airport" target="11" />
       <module name="LambdaExpressions-Employee" target="11" />
+      <module name="ToDoList" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>
