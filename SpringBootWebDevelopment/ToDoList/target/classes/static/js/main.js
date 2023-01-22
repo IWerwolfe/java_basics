@@ -2,7 +2,7 @@ $(function(){
 
     const appendTask = function(data){
         var bookCode = '<a href="#" class="task-link" data-id="' + data.id + '">' + data.title + '</a>' +
-        '<button delete-data-id="' + data.id + '">>Удалить</button>';
+        '<button delete-data-id="' + data.id + '">Удалить</button>';
         $('#tasks-list')
             .append('<div>' + bookCode + '</div>');
     };
@@ -36,8 +36,7 @@ $(function(){
             url: '/tasks/' + taskId,
             success: function(response)
             {
-                var status = response.isDone ? 'Закрытая' : 'Активная';
-                var code = '<br><span id="task-description">' + status + ' задача ' + ' от ' + response.creationTime + '<br>' +
+                var code = '<br><span id="task-description">Задача ' + ' от ' + response.creationTime + '<br>' +
                     'описание:' + response.description;
                 link.parent().append(code);
             },

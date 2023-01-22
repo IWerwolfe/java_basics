@@ -36,8 +36,7 @@ $(function(){
             url: '/tasks/' + taskId,
             success: function(response)
             {
-                var status = response.isDone ? 'Закрытая' : 'Активная';
-                var code = '<br><span id="task-description">' + status + ' задача ' + ' от ' + response.creationTime + '<br>' +
+                var code = '<br><span id="task-description">Задача ' + ' от ' + response.creationTime + '<br>' +
                     'описание:' + response.description;
                 link.parent().append(code);
             },

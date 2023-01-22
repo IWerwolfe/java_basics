@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/tasks?useSSL=false
+    url: jdbc:mysql://localhost:3306/tasks?allowPublicKeyRetrieval=true&useSSL=false
     username: root
     password: '!QAZzaq1'
   jpa:
