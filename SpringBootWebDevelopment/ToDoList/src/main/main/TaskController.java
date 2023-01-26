@@ -32,8 +32,6 @@ public class TaskController {
             return ResponseEntity.status(HttpStatus.OK).body(null);
         }
         return ResponseEntity.status(HttpStatus.NOT_FOUND).body(null);
-//        taskRepository.save(id)
-//        Optional<Task> optionalTask = taskRepository.findById(id);
     }
 
     @DeleteMapping("/tasks/{id}")

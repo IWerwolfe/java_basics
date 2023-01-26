@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" filepath="$PROJECT_DIR$/AdvancedOOPFeatures/homework_2/Employees/LambdaExpressions-Employee.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringBootWebDevelopment/ToDoList/ToDoList.iml" filepath="$PROJECT_DIR$/SpringBootWebDevelopment/ToDoList/ToDoList.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_basics1.iml" filepath="$PROJECT_DIR$/.idea/java_basics1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NoSQL/skill-redis-java-master/redis-demo.iml" filepath="$PROJECT_DIR$/NoSQL/skill-redis-java-master/redis-demo.iml" />
     </modules>
   </component>
 </project>

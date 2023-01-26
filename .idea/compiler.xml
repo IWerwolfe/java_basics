@@ -12,6 +12,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ImageResizer" />
         <module name="Inheritance3" />
+        <module name="redis-demo" />
         <module name="Inheritance1" />
         <module name="ToDoList" />
         <module name="LambdaExpressions-Employee" />
@@ -35,6 +36,7 @@
       <module name="LambdaExpressions" target="11" />
       <module name="LambdaExpressions-Airport" target="11" />
       <module name="LambdaExpressions-Employee" target="11" />
+      <module name="redis-demo" target="1.5" />
       <module name="ToDoList" target="19" />
     </bytecodeTargetLevel>
   </component>
