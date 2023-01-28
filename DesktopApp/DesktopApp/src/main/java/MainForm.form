@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="BorderLayout" hgap="5" vgap="10">
+    <constraints>
+      <xy x="20" y="20" width="522" height="400"/>
+    </constraints>
+    <properties/>
+    <clientProperties>
+      <html.disable class="java.lang.Boolean" value="true"/>
+    </clientProperties>
+    <border type="none"/>
+    <children>
+      <hspacer id="ccd36">
+        <constraints border-constraint="West"/>
+      </hspacer>
+      <hspacer id="75a83">
+        <constraints border-constraint="East"/>
+      </hspacer>
+      <grid id="b5f44" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <focusCycleRoot value="false"/>
+          <focusTraversalPolicyProvider value="false"/>
+          <requestFocusEnabled value="true"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+        <clientProperties>
+          <html.disable class="java.lang.Boolean" value="false"/>
+        </clientProperties>
+        <border type="none"/>
+        <children>
+          <component id="bbfd7" class="javax.swing.JTextField" binding="firstName">
+            <constraints/>
+            <properties>
+              <minimumSize width="100" height="50"/>
+              <opaque value="true"/>
+              <preferredSize width="300" height="50"/>
+            </properties>
+          </component>
+          <component id="524f7" class="javax.swing.JTextField" binding="lastName">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <dragEnabled value="false"/>
+              <maximumSize width="1000" height="1000"/>
+              <minimumSize width="100" height="50"/>
+              <opaque value="true"/>
+              <preferredSize width="300" height="50"/>
+            </properties>
+          </component>
+          <component id="e7afc" class="javax.swing.JTextField" binding="fatherName">
+            <constraints/>
+            <properties>
+              <minimumSize width="100" height="50"/>
+              <preferredSize width="300" height="50"/>
+            </properties>
+          </component>
+          <component id="3ef4" class="javax.swing.JTextField" binding="FIO">
+            <constraints/>
+            <properties>
+              <doubleBuffered value="true"/>
+              <dragEnabled value="true"/>
+              <minimumSize width="100" height="50"/>
+              <opaque value="true"/>
+              <preferredSize width="400" height="50"/>
+              <requestFocusEnabled value="true"/>
+              <visible value="false"/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="85f0" class="javax.swing.JLabel" binding="log">
+            <constraints/>
+            <properties>
+              <preferredSize width="300" height="50"/>
+              <requestFocusEnabled value="true"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <vspacer id="bc8c9">
+        <constraints border-constraint="North"/>
+      </vspacer>
+      <grid id="40460" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="21ead" class="javax.swing.JButton" binding="button">
+            <constraints/>
+            <properties>
+              <preferredSize width="250" height="50"/>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
